@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "karma",sans-serif;
+  font-size: 62.5%;
+}
+.container {
+  width: 120rem;
+  margin: auto;
+}
+header {
+  font-size: 4rem;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+}
+.menu-icon {
+  width: 4rem;
+}
+.flex-container {
+  width: 120rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.flex-container>div {
+  width:30rem;
+  height: 450rem;
+}
+
+.flex-container h4 {
+  font-size: 2.4rem;
+  font-weight: 400;
+  padding: 1rem;
+  /* text-align: center; */
+}
+.flex-container p {
+  font-size: 1.6rem;
+  /* text-align: center; */
+}
+.image-box {
+  width: 26rem;
+}
+img {
+  width: 100%;
+}
+.what {
+  margin-top: 2rem;
+  /* text-align: center; */
+}
